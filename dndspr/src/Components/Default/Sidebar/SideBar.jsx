@@ -9,7 +9,6 @@ export default _ =>
             <button>ficha</button>
             <button>Raça</button>
             <button>Classe</button>
-            <button>armas</button>
-            <button>itens</button>
+            <Link className='link' to='/itens'><button>itens</button></Link>
         </div>
     </div>

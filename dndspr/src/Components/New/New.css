@@ -1,0 +1,34 @@
+form{
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px var(--Color2);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    background-color: var(--Color3);
+}
+form fieldset{
+    border-radius: 15px;
+    border: 1px solid var(--Color2);
+    width: 90%;
+}
+form fieldset legend{
+    font-family: 'Kreon', serif;
+    color: var(--Color2);
+    font-size: 25px;
+    margin-left: 10px;
+}
+form fieldset input{
+    border: none;
+    background-color: var(--Color3);
+    font-size: 20px;
+    color: var(--Color2);
+    font-family: 'Kreon', serif;
+    width: 100%;
+}
+form fieldset input:focus{
+    outline: none;
+}
