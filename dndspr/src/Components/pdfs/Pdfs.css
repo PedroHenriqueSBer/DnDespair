@@ -1,0 +1,133 @@
+.card {
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px var(--Color2);
+    background-color: var(--Color1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.card img{
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px var(--Color2);
+}
+.flexCol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card h1{
+    text-align: center;
+}
+@media (min-width: 1154px){
+    .card {
+        width: 350px;
+        height: 490px;
+        max-height: 490px;
+    }
+    .card img{
+        width: 300px;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+    }
+    .pdfsgrid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 30px;
+    }
+    .card h1{
+        margin-top: 25px;
+        font-size: 22px;
+    }
+}
+@media (max-width: 1154px){
+    .card {
+        width: 300px;
+        height: 430px;
+        max-height: 430px;
+        margin-bottom: 10px;
+    }
+    .card img{
+        width: 250px;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+    }
+    .pdfsgrid{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 30px;
+    }
+    .card h1{
+        margin-top: 25px;
+        font-size: 21px;
+    }
+}
+@media (max-width: 998px){
+    .card {
+        width: 350px;
+        height: 490px;
+        max-height: 490px;
+    }
+    .card img{
+        width: 300px;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+    }
+    .pdfsgrid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card h1{
+        margin-top: 25px;
+        font-size: 21px;
+    }
+}
+@media (max-width: 414px) {
+    .card {
+        width: 250px;
+        height: 340px;
+        max-height: 340px;
+    }
+    .card img{
+        width: 200px;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+    }
+    .pdfsgrid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card h1{
+        margin-top: 25px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 290px) {
+    .card {
+        width: 200px;
+        height: 300px;
+        max-height: 300px;
+    }
+    .card img{
+        width: 180px;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+    }
+    .pdfsgrid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card h1{
+        margin-top: 15px;
+        font-size: 14px;
+    }
+}

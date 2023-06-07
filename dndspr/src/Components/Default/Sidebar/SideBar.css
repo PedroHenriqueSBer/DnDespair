@@ -1,0 +1,45 @@
+@import url(//dndspr/src/Style.css);
+#sidebar{
+    transition: 400ms;
+    z-index: 0;
+    position: fixed;
+    width: 10px;
+    height: 100%;
+    top: 0;
+    background-color: var(--Color2);
+}
+#sidebar .ContentSidebar{
+    display: none;
+}
+#sidebar:hover{
+    transition: 400ms;
+    width: 200px;
+}
+#sidebar:hover .ContentSidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ContentSidebar button {
+    color: var(--Color1);
+    font-family: 'Kreon', serif;
+    font-size: 20px;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.ContentSidebar button:hover {
+    background-color: var(--Color1);
+    color: var(--Color2);
+}
+.ContentSidebar img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 60px;
+    height: 60px;
+}
