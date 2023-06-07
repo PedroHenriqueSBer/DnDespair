@@ -1,10 +1,11 @@
 import './SideBar.css';
+import { Link } from "react-router-dom";
 export default _ =>
     <div id='sidebar'>
         <div className='ContentSidebar'>
-            <img src="./images/Icon.png" alt="" />
-            <button>Home</button>
-            <button>Pdfs</button>
+            <Link to='/'><img src="./images/Icon.png" alt="" /></Link>
+            <Link className='link' to='/'><button>Home</button></Link>
+            <Link className='link' to='/pdfs'><button>Pdfs</button></Link>
             <button>ficha</button>
             <button>Raça</button>
             <button>Classe</button>

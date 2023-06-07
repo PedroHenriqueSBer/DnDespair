@@ -1,0 +1,10 @@
+.centertxt{
+    text-align: center;
+}
+.txtHome{
+    font-size: 20px;
+    font-family: 'Kreon', serif;
+    color: var(--Color3);
+    margin-left: 40px;
+    margin-right: 40px;
+}
