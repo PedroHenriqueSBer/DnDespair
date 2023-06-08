@@ -1,0 +1,124 @@
+form{
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px var(--Color2);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    background-color: var(--Color3);
+    margin-bottom: 40px;
+
+}
+form fieldset{
+    border-radius: 15px;
+    border: 1px solid var(--Color2);
+    width: 90%;
+}
+form fieldset legend{
+    font-family: 'Kreon', serif;
+    color: var(--Color2);
+    font-size: 25px;
+    margin-left: 10px;
+}
+form fieldset input{
+    border: none;
+    background-color: var(--Color3);
+    font-size: 20px;
+    color: var(--Color2);
+    font-family: 'Kreon', serif;
+    width: 100%;
+}
+form fieldset input:focus{
+    outline: none;
+}
+form fieldset textarea{
+    border: none;
+    background-color: var(--Color3);
+    font-size: 20px;
+    color: var(--Color2);
+    font-family: 'Kreon', serif;
+    width: 100%;
+    max-width: 100%;
+    resize: vertical;
+}
+form fieldset textarea:focus{
+    outline: none;
+}
+form button{
+    margin-top: 14px;
+    width: 95%;
+    height: 60px;
+    font-size: 20px;
+    font-family: 'Kreon', serif;
+    border-radius: 20px;
+    color: var(--Color2);
+    box-shadow: 0px 0px 8px var(--Color2);
+    background-color: var(--Color1);
+    transition: 200ms ease;
+}
+form button:hover{
+    transform: translateY(-1px);
+}
+select{
+    width: 100%;
+    font-size: 20px;
+    color: var(--Color2);
+    font-family: 'Kreon', serif;
+    background: none;
+    border-radius: 20px;
+    border: none;
+    outline: 0;
+}
+option{
+    border: none;
+    background-color: var(--Color2);
+    color: var(--Color1);
+}
+option:hover{
+    background-color: var(--Color1);
+    color: var(--Color2);
+}
+.Stats .Frow{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    width: 450px;
+}
+.Stats div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+}
+.Stats div h1{
+    width: 200px;
+}
+.Stats div .inptn{
+    width: 60px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid;
+}
+.Stats div .inptc{
+    width: 25px;
+    height: 25px;
+}
+.Substats div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+}
+.Substats div input{
+    width: 20px;
+    height: 20px;
+}
+.Substats div span{
+    font-size: 20px;
+}
+.Substats div h2{
+    font-size: 20px;
+}

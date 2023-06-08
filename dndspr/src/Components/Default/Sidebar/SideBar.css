@@ -45,3 +45,41 @@
     width: 60px;
     height: 60px;
 }
+.Dropdawn{
+    width: 100%;
+    height: 40px;
+}
+.Dropdawn div{
+    transition: 400ms;
+    display: flex;
+    color: var(--Color1);
+    font-size: 20px;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.Dropdawn div span{
+    text-align: center;
+    font-family: 'Kreon', serif;
+    text-align: center;
+    width: 100%;
+}
+.Dropdawn button{
+    transition: 400ms;
+    display:  none;
+}
+.Dropdawn:hover button{
+    transition: 400ms;
+    display: block;
+}
+.Dropdawn:hover div{
+    transition: 400ms;
+    background-color: var(--Color1);
+    color: var(--Color2);
+}
