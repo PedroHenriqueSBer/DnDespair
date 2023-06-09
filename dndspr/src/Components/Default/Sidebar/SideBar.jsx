@@ -9,7 +9,7 @@ export default _ =>
             <div className='Dropdawn'>
                 <div> <span> Fichas </span></div>
                 <Link className='link' to='/NewSheet'><button>Criar Ficha</button></Link>
-                <button>Importar Ficha</button>
+                <Link className='link' to='/ImportSheet'><button>Importar Ficha</button></Link>
             </div>
         </div>
     </div>
